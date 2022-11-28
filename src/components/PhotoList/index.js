@@ -10,6 +10,8 @@ const PhotoList = ({ category }) => {
           {"https://github.com/munozgit85/photo-port.git"}
         </a>
       ),
+    },
+    {
       name: "e-commerce",
       category: "my-sql",
       link: (
@@ -17,6 +19,8 @@ const PhotoList = ({ category }) => {
           {"https://github.com/munozgit85/e-commerce.git"}
         </a>
       ),
+    },
+    {
       name: " Social network API",
       category: "NoSQL",
       link: (
@@ -24,6 +28,8 @@ const PhotoList = ({ category }) => {
           {"https://github.com/munozgit85/social-network-api.git"}
         </a>
       ),
+    },
+    {
       name: "text-editor-pwa",
       category: "PWA",
       link: (
@@ -31,6 +37,8 @@ const PhotoList = ({ category }) => {
           {" https://github.com/munozgit85/texteditor-pwa.git"}
         </a>
       ),
+    },
+    {
       name: "note-taker",
       category: "express",
       link: (
@@ -38,6 +46,8 @@ const PhotoList = ({ category }) => {
           {" https://github.com/munozgit85/note-taker.git"}
         </a>
       ),
+    },
+    {
       name: "Niche",
       category: "MVC",
       link: (
