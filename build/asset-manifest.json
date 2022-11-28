@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/munozgit85/react-portfolio/static/css/main.8832ea63.css",
+    "main.js": "/munozgit85/react-portfolio/static/js/main.e0506e98.js",
+    "static/js/787.a2cb61a6.chunk.js": "/munozgit85/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/1.jpg": "/munozgit85/react-portfolio/static/media/1.a7428a3691da9f5cb82f.jpg",
+    "static/media/0.jpg": "/munozgit85/react-portfolio/static/media/0.533ae8f6f0bf6c415f11.jpg",
+    "static/media/cover-image.jpg": "/munozgit85/react-portfolio/static/media/cover-image.9ec55e61cab7023e3daf.jpg",
+    "static/media/Full Stack development Resume .pdf": "/munozgit85/react-portfolio/static/media/Full Stack development Resume .90540b1aa6a4c196e4cd.pdf",
+    "index.html": "/munozgit85/react-portfolio/index.html",
+    "main.8832ea63.css.map": "/munozgit85/react-portfolio/static/css/main.8832ea63.css.map",
+    "main.e0506e98.js.map": "/munozgit85/react-portfolio/static/js/main.e0506e98.js.map",
+    "787.a2cb61a6.chunk.js.map": "/munozgit85/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8832ea63.css",
+    "static/js/main.e0506e98.js"
+  ]
+}
