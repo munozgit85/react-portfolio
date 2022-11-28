@@ -32,6 +32,15 @@ function Nav(props) {
               About me
             </a>
           </li>
+          <li className="mx-2">
+            <a
+              id="resume"
+              href="#resume"
+              onClick={() => setContactSelected(false)}
+            >
+              Resume
+            </a>
+          </li>
           <li className={`mx-2 ${contactSelected && "navActive"}`}>
             <span onClick={() => setContactSelected(true)}>Contact</span>
           </li>
