@@ -1,67 +1,42 @@
+import "./App.css";
 import React, { useState } from "react";
-import Nav from "./components/Nav";
-import About from "./components/About";
-import Gallery from "./components/Gallery";
-import ContactForm from "./components/Contact";
-import Resume from "./components/Resume";
+import Header from "./components/Header";
 import Footer from "./components/Footer";
+import About from "./components/About";
+import Portfolio from "./components/Portfolio";
+import Contact from "./components/Contact";
+import Resume from "./components/Resume";
 
 function App() {
-  const [categories] = useState([
-    {
-      name: "react",
-      description: "photo-port application of a photographers work",
-    },
-    {
-      name: "my-sql",
-      description:
-        "This application is for a manager of a retail company who needs a back-end for an e-commerce website",
-    },
-    {
-      name: "NoSQL",
-      description: "NoSQL database with MongoDB called social-network-api",
-    },
-    {
-      name: "MVC",
-      description:
-        "NICHE application. Group project instututing Model-View-Controller software design pattern",
-    },
-    {
-      name: "PWA",
-      description: " text-editor-pwa institutes a progressive web application.",
-    },
-    {
-      name: "express",
-      description:
-        "The note-taker is an application that incorporates the node.js web application framework",
-    },
-  ]);
+  const [currentTab, setCurrentTab] = useState("about");
 
-  const [currentCategory, setCurrentCategory] = useState(categories[0]);
-
-  const [contactSelected, setContactSelected] = useState(false);
+  // This function checks to see which tab is selected and then generates the appropriate tab.
+  const renderTab = () => {
+    switch (currentTab) {
+      case "about":
+        return <About />;
+      case "portfolio":
+        return <Portfolio />;
+      case "contact":
+        return <Contact />;
+      case "resume":
+        return <Resume />;
+      default:
+        return null;
+    }
+  };
 
   return (
     <div>
-      <Nav
-        categories={categories}
-        setCurrentCategory={setCurrentCategory}
-        currentCategory={currentCategory}
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
-      ></Nav>
-      <main>
-        {!contactSelected ? (
-          <>
-            <Gallery currentCategory={currentCategory}></Gallery>
-            <About></About>
-            <Resume></Resume>
-            <Footer></Footer>
-          </>
-        ) : (
-          <ContactForm></ContactForm>
-        )}
-      </main>
+      <div className="mobile-header">
+        <Header currentTab={currentTab} setCurrentTab={setCurrentTab}></Header>
+      </div>
+      <div>
+        <main>{renderTab()}</main>
+      </div>
+      <div>
+        <Footer></Footer>
+      </div>
     </div>
   );
 }
