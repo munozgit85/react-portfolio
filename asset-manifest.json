@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.f95e2914.css",
+    "main.js": "/react-portfolio/static/js/main.c69072af.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/react.jpg": "/react-portfolio/static/media/react.8ccc0035222dbe42ef1d.jpg",
+    "static/media/niche.jpg": "/react-portfolio/static/media/niche.b8c4afc9f3357a1105e7.jpg",
+    "static/media/my-sql.jpg": "/react-portfolio/static/media/my-sql.6a5f2e055ba1861fe0ec.jpg",
+    "static/media/NoSQL.jpg": "/react-portfolio/static/media/NoSQL.c31eb53205c34cd8dfdf.jpg",
+    "static/media/PWA.jpg": "/react-portfolio/static/media/PWA.e22255cac921a5b3a136.jpg",
+    "static/media/header.jpg": "/react-portfolio/static/media/header.a8daefca4832ad173ad8.jpg",
+    "static/media/cover-image.jpg": "/react-portfolio/static/media/cover-image.9ec55e61cab7023e3daf.jpg",
+    "static/media/Full Stack development Resume .pdf": "/react-portfolio/static/media/Full Stack development Resume .90540b1aa6a4c196e4cd.pdf",
+    "static/media/express.jpg": "/react-portfolio/static/media/express.50f839da5768802e08bc.jpg",
+    "index.html": "/react-portfolio/index.html",
+    "main.f95e2914.css.map": "/react-portfolio/static/css/main.f95e2914.css.map",
+    "main.c69072af.js.map": "/react-portfolio/static/js/main.c69072af.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f95e2914.css",
+    "static/js/main.c69072af.js"
+  ]
+}
