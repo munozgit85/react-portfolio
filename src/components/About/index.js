@@ -15,10 +15,9 @@ function About() {
           Hello, my name is Racquel Munoz, and I am a student in a coding
           bootcamp at the University of Texas. At the time of this website's
           creation, the class assignment for this week is to create a portfolio
-          using React. It is now week 20 out of 24 weeks into the coding
-          bootcamp. Thus far the front end technologies have been reviewed, and
-          the program is now focussed on backend technologies. As I approach the
-          end of this program, I reflect on my initial goal for delving into
+          using React. Thus far the front end technologies have been reviewed,
+          and the program is now focussed on backend technologies. As I approach
+          the end of this program, I reflect on my initial goal for delving into
           coding or, rather, software development. I have spent the last 14
           years working in the nursing field, and there has been various types
           of technological advances in healthcare that I have taken interest in.

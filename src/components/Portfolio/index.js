@@ -8,20 +8,8 @@ function Portfolio() {
       proficiencies: "react, create-react-app, react testing library",
       description: "photo-port is an  application of a photographers work",
       image: "react.jpg",
-      github: (
-        <a href="https://github.com/munozgit85/photo-port.git">
-          <img
-            src="https://img.icons8.com/color/48/000000/github--v1.png"
-            alt="Github"
-            className="icon"
-          />
-        </a>
-      ),
-      deploy: (
-        <a href="Github deploy link">
-          {"https://munozgit85.github.io/photo-port/"}
-        </a>
-      ),
+      github: "https://github.com/munozgit85/photo-port.git",
+      deploy: "https://munozgit85.github.io/photo-port",
     },
     {
       name: "e-commerce",
@@ -29,15 +17,8 @@ function Portfolio() {
       description:
         "This application is for a manager of a retail company who needs a back-end for an e-commerce website",
       image: "my-sql.jpg",
-      github: (
-        <a href="https://github.com/munozgit85/e-commerce.git">
-          <img
-            src="https://img.icons8.com/color/48/000000/github--v1.png"
-            alt="Github"
-            className="icon"
-          />
-        </a>
-      ),
+      github: "https://github.com/munozgit85/e-commerce.git",
+      deploy: "https://github.com/munozgit85/e-commerce.git",
     },
     {
       name: " Social network API",
@@ -45,15 +26,8 @@ function Portfolio() {
       description:
         "NoSQL database with MongoDB offers the backend framework for creating a social network of users that can add thoughts, reactions, and friends",
       image: "NoSQL.jpg",
-      github: (
-        <a href="https://github.com/munozgit85/social-network-api.git">
-          <img
-            src="https://img.icons8.com/color/48/000000/github--v1.png"
-            alt="Github"
-            className="icon"
-          />
-        </a>
-      ),
+      github: "https://github.com/munozgit85/social-network-api.git",
+      deploy: "https://github.com/munozgit85/social-network-api.git",
     },
     {
       name: "text-editor-pwa",
@@ -61,20 +35,8 @@ function Portfolio() {
       description:
         " text-editor-pwa institutes a progressive web application that allows the user to add notes that can be retrieved even after closing and re-opening the app.",
       image: "PWA.jpg",
-      github: (
-        <a href="https://github.com/munozgit85/texteditor-pwa.git">
-          <img
-            src="https://img.icons8.com/color/48/000000/github--v1.png"
-            alt="Github"
-            className="icon"
-          />
-        </a>
-      ),
-      deploy: (
-        <a href="Heroku link">
-          {"https://fathomless-bayou-07571.herokuapp.com/"}
-        </a>
-      ),
+      github: "https://github.com/munozgit85/texteditor-pwa.git",
+      deploy: "https://fathomless-bayou-07571.herokuapp.com",
     },
     {
       name: "note-taker",
@@ -82,18 +44,8 @@ function Portfolio() {
       description:
         "The note-taker is an application that allows the user to take notes, save, edit, and delete using express",
       image: "express.jpg",
-      github: (
-        <a href="https://github.com/munozgit85/note-taker.git">
-          <img
-            src="https://img.icons8.com/color/48/000000/github--v1.png"
-            alt="Github"
-            className="icon"
-          />
-        </a>
-      ),
-      deploy: (
-        <a href="Heroku link">{"https://agile-mesa-84087.herokuapp.com"}</a>
-      ),
+      github: "https://github.com/munozgit85/note-taker.git",
+      deploy: "https://agile-mesa-84087.herokuapp.com",
     },
     {
       name: "Niche",
@@ -101,20 +53,8 @@ function Portfolio() {
       description:
         "This is a Group project instututing Model-View-Controller software design pattern to record food orders for a restaurant",
       image: "niche.jpg",
-      github: (
-        <a href="https://github.com/munozgit85/niche.git">
-          <img
-            src="https://img.icons8.com/color/48/000000/github--v1.png"
-            alt="Github"
-            className="icon"
-          />
-        </a>
-      ),
-      deploy: (
-        <a href="Heroku link">
-          {" https://thawing-garden-93969.herokuapp.com"}
-        </a>
-      ),
+      github: "https://github.com/munozgit85/niche.git",
+      deploy: " https://thawing-garden-93969.herokuapp.com",
     },
   ];
   return (

@@ -10,7 +10,6 @@ import Resume from "./components/Resume";
 function App() {
   const [currentTab, setCurrentTab] = useState("about");
 
-  // This function checks to see which tab is selected and then generates the appropriate tab.
   const renderTab = () => {
     switch (currentTab) {
       case "about":
