@@ -34,7 +34,8 @@ to the developer’s GitHub and LinkedIn profiles, and their profile on a third 
 
 ## Installation
 
-Ensure that Node is already installed https://nodejs.org/en/download/
+-Ensure that Node is already installed https://nodejs.org/en/download/
+-install react-bootstrap `npm i react-bootstrap`
 
 ## Usage
 
@@ -44,6 +45,7 @@ Ensure that Node is already installed https://nodejs.org/en/download/
 - then run `npm start` from the root directory
 
 # Screenshot
+
 <img width="1440" alt="portfolioscreen" src="https://user-images.githubusercontent.com/107218022/204707791-23dbb6e7-0ff1-48b0-a509-db63f0555bec.png">
 
 ## Github Deployed Site
