@@ -56,6 +56,16 @@ function Portfolio() {
       github: "https://github.com/munozgit85/niche.git",
       deploy: " https://thawing-garden-93969.herokuapp.com",
     },
+    {
+      name: "Patient-Portable-Notes",
+      proficiencies:
+        "React,express, mongoose, bcrypt, JWT,apollo-server-express, graphql",
+      description:
+        "Project 3 of Coding bootcamp on a remote progress note generator for provider",
+      image: "project.jpg",
+      github: "https://github.com/munozgit85/Patient-portable-notes.git",
+      deploy: "https://nameless-mountain-88497.herokuapp.com",
+    },
   ];
   return (
     <section>
@@ -85,6 +95,11 @@ function Portfolio() {
           </li>
           <li className="padding">
             <Project projects={projects[5]}></Project>
+          </li>
+        </ul>
+        <ul className="flex-row mobile-row">
+          <li className="padding">
+            <Project projects={projects[6]}></Project>
           </li>
         </ul>
       </div>
